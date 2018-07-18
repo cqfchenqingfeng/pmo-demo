@@ -19,3 +19,4 @@ npm run build
 ```
 npm run lint
 ```
+//这是1.0版本，之后会陆续上传新的版本
