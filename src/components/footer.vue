@@ -48,7 +48,7 @@
     .iap-footer {
        // height: 200px;
         background-color: #66b1ff;
-        padding: 40px 30px 0 30px;
+        padding: 0px;
         color: #fff;
         p:hover{
             color: #000f;

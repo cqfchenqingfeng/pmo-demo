@@ -122,7 +122,6 @@
       }
     }
   }
-  console.log("sfdsa");
 </script>
 
 <style>

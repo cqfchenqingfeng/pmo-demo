@@ -7,7 +7,7 @@
                 mode="horizontal"
                 background-color="#66b1ff"
                 text-color="#fff"
-                active-text-color="#000">
+                active-text-color="#fff">
             <el-menu-item index="/">
                 <span class="iap-submenu-title">PMO管理系统</span>
             </el-menu-item>
@@ -23,7 +23,7 @@
             </el-submenu>
             <el-submenu index="3">
                 <template slot="title">生产调度</template>
-                        <el-menu-item index="3-1">项目清单</el-menu-item>
+                        <el-menu-item index="/">项目清单</el-menu-item>
                         <el-menu-item index="3-2">项目变更</el-menu-item>
             </el-submenu>
             <el-submenu index="4">
@@ -60,6 +60,7 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
     .iap-header {
+        width: 100%;
        .iap-submenu-title {
             padding-right: 50px;
             font-size: 20px;
